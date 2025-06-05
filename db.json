@@ -12,5 +12,52 @@
       "email": "maria@example.com",
       "password": "abcdef"
     }
+  ],
+  "myTournaments": [
+    {
+      "id": 1,
+      "name": "Torneo Nacional de Softbol 2025",
+      "location": "Santo Domingo",
+      "dateStart": "2025-08-01",
+      "dateEnd": "2025-08-15",
+      "createdBy": 1,
+      "teams": 12,
+      "matches": 30,
+      "status": "En curso",
+      "winner": null,
+      "prizePool": 50000,
+      "sponsor": "Cerveza Nacional",
+      "description": "El torneo nacional anual de softbol donde compiten los mejores equipos del país.",
+      "categories": [
+        "Masculino",
+        "Femenino"
+      ],
+      "organizer": {
+        "name": "Federación Dominicana de Softbol",
+        "contact": "contacto@fedosoft.do"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Copa de Campeones 2024",
+      "location": "Santiago",
+      "dateStart": "2024-11-10",
+      "dateEnd": "2024-11-20",
+      "createdBy": 2,
+      "teams": 8,
+      "matches": 20,
+      "status": "Finalizado",
+      "winner": "Tigres del Cibao",
+      "prizePool": 30000,
+      "sponsor": "Banco Caribe",
+      "description": "Competencia entre los campeones regionales de softbol.",
+      "categories": [
+        "Masculino"
+      ],
+      "organizer": {
+        "name": "Liga del Norte",
+        "contact": "liga.norte@gmail.com"
+      }
+    }
   ]
 }
