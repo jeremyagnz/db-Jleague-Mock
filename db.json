@@ -58,6 +58,27 @@
         "name": "Liga del Norte",
         "contact": "liga.norte@gmail.com"
       }
+    },{
+      "id": 3,
+      "name": "Copa de Campeones 2024",
+      "location": "Santiago",
+      "dateStart": "2024-11-10",
+      "dateEnd": "2024-11-20",
+      "createdBy": 2,
+      "teams": 8,
+      "matches": 20,
+      "status": "Finalizado",
+      "winner": "Tigres del Cibao",
+      "prizePool": 30000,
+      "sponsor": "Banco Caribe",
+      "description": "Competencia entre los campeones regionales de softbol.",
+      "categories": [
+        "Masculino"
+      ],
+      "organizer": {
+        "name": "Liga del Norte",
+        "contact": "liga.norte@gmail.com"
+      }
     }
   ]
 }
